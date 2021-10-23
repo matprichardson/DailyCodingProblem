@@ -10,6 +10,6 @@ def daytwo(a):
         n.append(calc)
         calc = 1
 
-    print(n)
+    return(n)
 
-daytwo([1,2,3,4,5])
+print(daytwo([1,2,3,4,5]))
